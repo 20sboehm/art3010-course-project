@@ -1,15 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-}
+/* -------------------- HEADER -------------------- */
 
 header {
     background-color: #333;
@@ -18,13 +17,20 @@ header {
     text-align: center;
 }
 
-h1 {
+header > h1 {
     font-size: 36px;
+}
+
+h1, h2, h3 {
     margin: 1rem 0 1rem 0;
 }
 
-h2 {
-    margin: 1rem 0 1rem 0;
+/* -------------------- BODY -------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
 .container {
@@ -35,7 +41,15 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+section {
+    margin-bottom: 2rem;
+}
+
 p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+.legal-img {
+    width: 100%
 }
