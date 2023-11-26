@@ -48,6 +48,12 @@ section {
 p {
     font-size: 18px;
     line-height: 1.6;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+h1 + p {
+    margin-top: 1rem;
 }
 
 .legal-img {
